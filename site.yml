@@ -1,0 +1,6 @@
+- hosts: db-servers
+  user: vagrant
+  vars_files:
+    - vars/database.yml
+  roles:
+    - { role: ANXS.mysql }
