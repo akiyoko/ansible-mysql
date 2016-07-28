@@ -1,8 +1,8 @@
 mysql_current_root_password: ''
 mysql_root_password: rootpass
 mysql_databases:
-  - name: mysite
+  - name: myproject
 mysql_users:
-  - name: mysiteuser
-    pass: mysiteuserpass
-    priv: "mysite.*:ALL"
+  - name: myprojectuser
+    pass: myprojectuserpass
+    priv: "myproject.*:ALL"
